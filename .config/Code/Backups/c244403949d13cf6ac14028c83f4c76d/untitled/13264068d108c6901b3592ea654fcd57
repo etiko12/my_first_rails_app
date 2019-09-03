@@ -1,0 +1,15 @@
+untitled:Untitled-1
+whoami
+gem install rails -v 5.2.3
+mkdir odin_on_rails
+cd odin_on_rails
+rails new my_first_rails_app
+cd my_first_rails_app
+rails generate scaffold car make:string model:string year:integer
+rails db:migrate
+rails server
+pwd
+/home/you/odin_on_rails/my_first_rails_app
+git init
+git add .
+git commit -m "initial commit"

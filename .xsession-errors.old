@@ -1,0 +1,72 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/etiko/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_CA.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_CA
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/etiko
+dbus-update-activation-environment: setting USER=etiko
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/etiko
+dbus-update-activation-environment: setting HOME=/home/etiko
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_CA:en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=etiko
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/etiko/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1064): xfce4-session-WARNING **: 12:20:08.507: xfsm_manager_load_session: Something wrong with /home/etiko/.cache/sessions/xfce4-session-etiko-VirtualBox:0, Does it exist? Permissions issue?
+** Message: 12:20:08.526: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+
+(xfsettingsd:1087): xfsettingsd-WARNING **: 12:20:10.743: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(polkit-gnome-authentication-agent-1:1115): GLib-CRITICAL **: 12:20:11.477: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1115): polkit-gnome-1-WARNING **: 12:20:11.481: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(wrapper-2.0:1195): GLib-GIO-CRITICAL **: 12:20:12.635: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1195): GLib-GIO-CRITICAL **: 12:20:12.635: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1195): GLib-GObject-WARNING **: 12:20:12.635: invalid (NULL) pointer instance
+
+(wrapper-2.0:1195): GLib-GObject-CRITICAL **: 12:20:12.635: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1195): Gtk-WARNING **: 12:20:12.635: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1195): Gtk-WARNING **: 12:20:12.936: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:1207): WARNING **: 12:20:13.004: No outputs have backlight property
+
+(wrapper-2.0:1213): Gtk-WARNING **: 12:20:13.287: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1207): Gtk-WARNING **: 12:20:13.830: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1098): Gtk-WARNING **: 12:20:13.902: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1185): Gtk-WARNING **: 12:20:13.999: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfsettingsd:1087): libxfce4ui-WARNING **: 12:20:42.638: ICE I/O Error
+
+(xfsettingsd:1087): libxfce4ui-WARNING **: 12:20:42.638: Disconnected from session manager.
+
+(xfce4-panel:1081): libxfce4ui-WARNING **: 12:20:42.643: ICE I/O Error
+xfdesktop: Fatal IO error 0 (Success) on X server :0.0.
